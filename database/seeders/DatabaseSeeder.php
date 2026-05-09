@@ -21,19 +21,19 @@ class DatabaseSeeder extends Seeder
             'name' => 'test user',
             'email' => 'text@example.com'
         ]);
-        $categories = [
-            'Technoloy',
-            'Health',
-            'Science',
-            'Sports',
-            'Politics',
-            'Entertaninment',
-        ];
+        // $categories = [
+        //     'Technoloy',
+        //     'Health',
+        //     'Science',
+        //     'Sports',
+        //     'Politics',
+        //     'Entertaninment',
+        // ];
 
-        foreach ($categories as $category) {
-            Category::create(['name' => $category]);
-        }
+        // foreach ($categories as $category) {
+        //     Category::create(['name' => $category]);
+        // }
 
-        Post::factory(100)->create();
+        // Post::factory(100)->create();
     }
 }
